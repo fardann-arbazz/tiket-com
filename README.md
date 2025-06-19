@@ -132,4 +132,4 @@ Platform ini **masih dalam tahap pengembangan aktif**. Nantikan:
 
 ---
 
-> Dibangun dengan semangat Web3 & komunitas. 🚀
+> Dibangun dengan semangat Web3🚀
