@@ -46,7 +46,7 @@ cd frontend
 npm install
 
 # Smart Contract
-cd ../contracts
+cd ../smart-contracts
 npm install
 ```
 
@@ -62,7 +62,8 @@ Isi dengan:
 
 ```
 VITE_CONTRACT_ADDRESS=0x...
-VITE_NETWORK=sepolia
+VITE_PINATA_API_KEY=9qswdj...
+VITE_PINATA_API_KEY_SECRET=h3...
 ```
 
 ### 4. Deploy Smart Contract
@@ -70,7 +71,7 @@ Gunakan Hardhat:
 
 ```bash
 npx hardhat compile
-npx hardhat run scripts/deploy.js --network sepolia
+npx hardhat run scripts/deploy.js --network localhost
 ```
 
 ### 5. Jalankan Frontend
@@ -84,7 +85,7 @@ Akses di: [http://localhost:5173](http://localhost:5173)
 ## 🧪 Testing Smart Contract
 
 ```bash
-cd contracts
+cd smart-contracts
 npx hardhat test
 ```
 
